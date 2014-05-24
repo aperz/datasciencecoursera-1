@@ -67,6 +67,6 @@ Step 10.  Index columns of tidyData to get means including mean frequencies (mea
 	 [1] 294 295 296 373 374 375 452 453 454 513
 Step 11. Assign variable names to columns of tidyData using the tidyfeatures vector.
 	tidyfeatures <- features[c(1:293,297:372,376:451,455:512,514:515,555:561)]
-	names(tidyData) <- tidyfeatures[, 2]			 # 551 rows and 1 column 
+	names(tidyData) <- tidyfeatures[, 2]			 # 512 rows and 1 column 
 Step 12. Index columns of tidyData to get means excluding mean frequencies.	
 	tidyMean <- tidyData[,grep("mean()",tidyfeatures[, 2])]	 # 10,299 rows and 30 columns
