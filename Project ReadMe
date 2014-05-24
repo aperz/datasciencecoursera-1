@@ -10,7 +10,7 @@ Step 3. Concatenate the training and test subjects by combining rows to get Subj
 	trainSubject <- read.table("./data/subject_train.txt")# 7,352 rows and 1 column
 	testSubject <- read.table("./data/subject_test.txt") 	# 2,947 rows and 1 column
 	Subject<- rbind(trainSubject,testSubject)	 	# 10,299 rows and 1 column
-Step 5. Index rows of Data by elements from the Subject and Activity vectors, e.g., n11=95. 
+Step 4. Index rows of Data by elements from the Subject and Activity vectors, e.g., n11=95. 
 
 Subject	
 1=Walking	2=Walking
@@ -53,20 +53,20 @@ Totals
 Row Totals	1722	1544	1406	1777	1906	1944	10299
 
  
-Step 6. Assign variable names to columns of Data using the features vector. 
+Step 5. Assign variable names to columns of Data using the features vector. 
 	 names(Data) <- features[, 2]			 # 561 rows and 1 column 
-Step 7. Drop duplicate “BodyBody” columns to get tidyData.
+Step 6. Drop duplicate “BodyBody” columns to get tidyData.
 	> grep("BodyBody", features[, 2])			#  39 columns
  	[1] 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 	537 538 539 540 541 542 543 544 545 546 547 [33] 548 549 550 551 552 553 554
 	> tidyData <- Data[c(, 1:515,555:561)] 		# 10,299 rows and 522 = 561 – 39 columns
-Step 9.  Index columns of tidyData to get standard deviations (SD).
+Step 7.  Index columns of tidyData to get standard deviations (SD).
 	SD <- tidyData[, grep("std()", features[, 2])] 		# 10,299 rows and 30 columns
-Step 10.  Index columns of tidyData to get means including mean frequencies (meanFreq).
+Step 8.  Index columns of tidyData to get means including mean frequencies (meanFreq).
 	Mean  <- tidyData[, grep("mean()", features[ ,2])] 	# 10,299 rows and 40 columns
 	> grep("meanFreq()", features[, 2])			#  10 columns
 	 [1] 294 295 296 373 374 375 452 453 454 513
-Step 11. Assign variable names to columns of tidyData using the tidyfeatures vector.
+Step 9. Assign variable names to columns of tidyData using the tidyfeatures vector.
 	tidyfeatures <- features[c(1:293,297:372,376:451,455:512,514:515,555:561)]
 	names(tidyData) <- tidyfeatures[, 2]			 # 512 rows and 1 column 
-Step 12. Index columns of tidyData to get means excluding mean frequencies.	
+Step 10. Index columns of tidyData to get means excluding mean frequencies.	
 	tidyMean <- tidyData[,grep("mean()",tidyfeatures[, 2])]	 # 10,299 rows and 30 columns
