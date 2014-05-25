@@ -10,9 +10,9 @@ Step 2. Assign variable names to columns of Data using the features vector.
   
 Step 3. Subset the Data set by combining 522 = 561 - 39 columns without “BodyBody” in their names.	
 
-Step 4. Index 60 columns of tidy Data to extract mean and standard deviation (std) for each of 30 measurements.
+Step 4. Index 66 columns of tidy Data to extract mean and standard deviation (std) for each of 30 measurements.
 
-        NOTE: Subset has 30 mean (and 30 std) columns excluding 10 columns with mean frequency (meanFreq) names. 
+        NOTE: Subset has 33 mean (and 33 std) columns excluding 10 columns with mean frequency (meanFreq) names. 
 
 Step 5a. Assign value labels to activities using the activity_labels vector.
 
