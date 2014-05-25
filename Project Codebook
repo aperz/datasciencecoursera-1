@@ -1,0 +1,563 @@
+Domain	Raw Signal	Acceleration	Column 	Descriptive Statistic	Column Heading
+Time	Accelerometer 	Body	1	Mean value	tBodyAcc-mean()-X
+			2		tBodyAcc-mean()-Y
+			3		tBodyAcc-mean()-Z
+			4	Standard deviation	tBodyAcc-std()-X
+			5		tBodyAcc-std()-Y
+			6		tBodyAcc-std()-Z
+			7	Median absolute deviation	tBodyAcc-mad()-X
+			8		tBodyAcc-mad()-Y
+			9		tBodyAcc-mad()-Z
+			10	Maximum value	tBodyAcc-max()-X
+			11		tBodyAcc-max()-Y
+			12		tBodyAcc-max()-Z
+			13	Minimum value	tBodyAcc-min()-X
+			14		tBodyAcc-min()-Y
+			15		tBodyAcc-min()-Z
+			16	Signal magnitude area	tBodyAcc-sma()
+			17	Energy measure	tBodyAcc-energy()-X
+			18		tBodyAcc-energy()-Y
+			19		tBodyAcc-energy()-Z
+			20	Inter-quartile range	tBodyAcc-iqr()-X
+			21		tBodyAcc-iqr()-Y
+			22		tBodyAcc-iqr()-Z
+			23	Signal entropy 	tBodyAcc-entropy()-X
+			24		tBodyAcc-entropy()-Y
+			25		tBodyAcc-entropy()-Z
+			26	Autoregression coefficients with Burg order 	tBodyAcc-arCoeff()-X,1
+			27	equal to 4	tBodyAcc-arCoeff()-X,2
+			28		tBodyAcc-arCoeff()-X,3
+			29		tBodyAcc-arCoeff()-X,4
+			30		tBodyAcc-arCoeff()-Y,1
+			31		tBodyAcc-arCoeff()-Y,2
+			32		tBodyAcc-arCoeff()-Y,3
+			33		tBodyAcc-arCoeff()-Y,4
+			34		tBodyAcc-arCoeff()-Z,1
+			35		tBodyAcc-arCoeff()-Z,2
+			36		tBodyAcc-arCoeff()-Z,3
+			37		tBodyAcc-arCoeff()-Z,4
+			38	Correlation coefficient between two signals	tBodyAcc-correlation()-X,Y
+			39		tBodyAcc-correlation()-X,Z
+			40		tBodyAcc-correlation()-Y,Z
+Time	Accelerometer 	Gravity	41	Mean value	tGravityAcc-mean()-X
+			42		tGravityAcc-mean()-Y
+			43		tGravityAcc-mean()-Z
+			44	Standard deviation	tGravityAcc-std()-X
+			45		tGravityAcc-std()-Y
+			46		tGravityAcc-std()-Z
+			47	Median absolute deviation	tGravityAcc-mad()-X
+			48		tGravityAcc-mad()-Y
+			49		tGravityAcc-mad()-Z
+			50	Maximum value	tGravityAcc-max()-X
+			51		tGravityAcc-max()-Y
+			52		tGravityAcc-max()-Z
+			53	Minimum value	tGravityAcc-min()-X
+			54		tGravityAcc-min()-Y
+			55		tGravityAcc-min()-Z
+			56	Signal magnitude area	tGravityAcc-sma()
+			57	Energy measure	tGravityAcc-energy()-X
+			58		tGravityAcc-energy()-Y
+			59		tGravityAcc-energy()-Z
+			60	Inter-quartile range	tGravityAcc-iqr()-X
+			61		tGravityAcc-iqr()-Y
+			62		tGravityAcc-iqr()-Z
+			63	Signal entropy 	tGravityAcc-entropy()-X
+			64		tGravityAcc-entropy()-Y
+			65		tGravityAcc-entropy()-Z
+			66	Autoregression coefficients with Burg order 	tGravityAcc-arCoeff()-X,1
+			67	equal to 4	tGravityAcc-arCoeff()-X,2
+			68		tGravityAcc-arCoeff()-X,3
+			69		tGravityAcc-arCoeff()-X,4
+			70		tGravityAcc-arCoeff()-Y,1
+			71		tGravityAcc-arCoeff()-Y,2
+			72		tGravityAcc-arCoeff()-Y,3
+			73		tGravityAcc-arCoeff()-Y,4
+			74		tGravityAcc-arCoeff()-Z,1
+			75		tGravityAcc-arCoeff()-Z,2
+			76		tGravityAcc-arCoeff()-Z,3
+			77		tGravityAcc-arCoeff()-Z,4
+			78	Correlation coefficient between two signals	tGravityAcc-correlation()-X,Y
+			79	between two signals	tGravityAcc-correlation()-X,Z
+			80		tGravityAcc-correlation()-Y,Z
+Time	Accelerometer 	Body	81	Mean value	tBodyAccJerk-mean()-X
+			82		tBodyAccJerk-mean()-Y
+			83		tBodyAccJerk-mean()-Z
+			84	Standard deviation	tBodyAccJerk-std()-X
+			85		tBodyAccJerk-std()-Y
+			86		tBodyAccJerk-std()-Z
+			87	Median absolute deviation	tBodyAccJerk-mad()-X
+			88		tBodyAccJerk-mad()-Y
+			89		tBodyAccJerk-mad()-Z
+			90	Maximum value	tBodyAccJerk-max()-X
+			91		tBodyAccJerk-max()-Y
+			92		tBodyAccJerk-max()-Z
+			93	Minimum value	tBodyAccJerk-min()-X
+			94		tBodyAccJerk-min()-Y
+			95		tBodyAccJerk-min()-Z
+			96	Signal magnitude area	tBodyAccJerk-sma()
+			97	Energy measure	tBodyAccJerk-energy()-X
+			98		tBodyAccJerk-energy()-Y
+			99		tBodyAccJerk-energy()-Z
+			100	Inter-quartile range	tBodyAccJerk-iqr()-X
+			101		tBodyAccJerk-iqr()-Y
+			102		tBodyAccJerk-iqr()-Z
+			103	Signal entropy 	tBodyAccJerk-entropy()-X
+			104		tBodyAccJerk-entropy()-Y
+			105		tBodyAccJerk-entropy()-Z
+			106	Autoregression coefficients with Burg order 	tBodyAccJerk-arCoeff()-X,1
+			107	equal to 4	tBodyAccJerk-arCoeff()-X,2
+			108		tBodyAccJerk-arCoeff()-X,3
+			109		tBodyAccJerk-arCoeff()-X,4
+			110		tBodyAccJerk-arCoeff()-Y,1
+			111		tBodyAccJerk-arCoeff()-Y,2
+			112		tBodyAccJerk-arCoeff()-Y,3
+			113		tBodyAccJerk-arCoeff()-Y,4
+			114		tBodyAccJerk-arCoeff()-Z,1
+			115		tBodyAccJerk-arCoeff()-Z,2
+			116		tBodyAccJerk-arCoeff()-Z,3
+			117		tBodyAccJerk-arCoeff()-Z,4
+			118	Correlation coefficient between two signals	tBodyAccJerk-correlation()-X,Y
+			119	between two signals	tBodyAccJerk-correlation()-X,Z
+			120		tBodyAccJerk-correlation()-Y,Z
+Time	Gyroscope	Body	121	Mean value	tBodyGyro-mean()-X
+			122		tBodyGyro-mean()-Y
+			123		tBodyGyro-mean()-Z
+			124	Standard deviation	tBodyGyro-std()-X
+			125		tBodyGyro-std()-Y
+			126		tBodyGyro-std()-Z
+			127	Median absolute deviation	tBodyGyro-mad()-X
+			128		tBodyGyro-mad()-Y
+			129		tBodyGyro-mad()-Z
+			130	Maximum value	tBodyGyro-max()-X
+			131		tBodyGyro-max()-Y
+			132		tBodyGyro-max()-Z
+			133	Minimum value	tBodyGyro-min()-X
+			134		tBodyGyro-min()-Y
+			135		tBodyGyro-min()-Z
+			136	Signal magnitude area	tBodyGyro-sma()
+			137	Energy measure	tBodyGyro-energy()-X
+			138		tBodyGyro-energy()-Y
+			139		tBodyGyro-energy()-Z
+			140	Inter-quartile range	tBodyGyro-iqr()-X
+			141		tBodyGyro-iqr()-Y
+			142		tBodyGyro-iqr()-Z
+			143	Signal entropy 	tBodyGyro-entropy()-X
+			144		tBodyGyro-entropy()-Y
+			145		tBodyGyro-entropy()-Z
+			146	Autoregression coefficients with Burg order 	tBodyGyro-arCoeff()-X,1
+			147	equal to 4	tBodyGyro-arCoeff()-X,2
+			148		tBodyGyro-arCoeff()-X,3
+			149		tBodyGyro-arCoeff()-X,4
+			150		tBodyGyro-arCoeff()-Y,1
+			151		tBodyGyro-arCoeff()-Y,2
+			152		tBodyGyro-arCoeff()-Y,3
+			153		tBodyGyro-arCoeff()-Y,4
+			154		tBodyGyro-arCoeff()-Z,1
+			155		tBodyGyro-arCoeff()-Z,2
+			156		tBodyGyro-arCoeff()-Z,3
+			157		tBodyGyro-arCoeff()-Z,4
+			158	Correlation coefficient between two signals	tBodyGyro-correlation()-X,Y
+			159	between two signals	tBodyGyro-correlation()-X,Z
+			160		tBodyGyro-correlation()-Y,Z
+Time	Gyroscope	Body	161	Mean value	tBodyGyroJerk-mean()-X
+			162		tBodyGyroJerk-mean()-Y
+			163		tBodyGyroJerk-mean()-Z
+			164	Standard deviation	tBodyGyroJerk-std()-X
+			165		tBodyGyroJerk-std()-Y
+			166		tBodyGyroJerk-std()-Z
+			167	Median absolute deviation	tBodyGyroJerk-mad()-X
+			168		tBodyGyroJerk-mad()-Y
+			169		tBodyGyroJerk-mad()-Z
+			170	Maximum value	tBodyGyroJerk-max()-X
+			171		tBodyGyroJerk-max()-Y
+			172		tBodyGyroJerk-max()-Z
+			173	Minimum value	tBodyGyroJerk-min()-X
+			174		tBodyGyroJerk-min()-Y
+			175		tBodyGyroJerk-min()-Z
+			176	Signal magnitude area	tBodyGyroJerk-sma()
+			177	Energy measure	tBodyGyroJerk-energy()-X
+			178		tBodyGyroJerk-energy()-Y
+			179		tBodyGyroJerk-energy()-Z
+			180	Inter-quartile range	tBodyGyroJerk-iqr()-X
+			181		tBodyGyroJerk-iqr()-Y
+			182		tBodyGyroJerk-iqr()-Z
+			183	Signal entropy 	tBodyGyroJerk-entropy()-X
+			184		tBodyGyroJerk-entropy()-Y
+			185		tBodyGyroJerk-entropy()-Z
+			186	Autoregression coefficients with Burg order 	tBodyGyroJerk-arCoeff()-X,1
+			187	equal to 4	tBodyGyroJerk-arCoeff()-X,2
+			188		tBodyGyroJerk-arCoeff()-X,3
+			189		tBodyGyroJerk-arCoeff()-X,4
+			190		tBodyGyroJerk-arCoeff()-Y,1
+			191		tBodyGyroJerk-arCoeff()-Y,2
+			192		tBodyGyroJerk-arCoeff()-Y,3
+			193		tBodyGyroJerk-arCoeff()-Y,4
+			194		tBodyGyroJerk-arCoeff()-Z,1
+			195		tBodyGyroJerk-arCoeff()-Z,2
+			196		tBodyGyroJerk-arCoeff()-Z,3
+			197		tBodyGyroJerk-arCoeff()-Z,4
+			198	Correlation coefficient between two signals	tBodyGyroJerk-correlation()-X,Y
+			199	between two signals	tBodyGyroJerk-correlation()-X,Z
+			200		tBodyGyroJerk-correlation()-Y,Z
+Time	Accelerometer 	Body	201	Mean value	tBodyAccMag-mean()
+			202	Standard deviation	tBodyAccMag-std()
+			203	Median absolute deviation	tBodyAccMag-mad()
+			204	Maximum value	tBodyAccMag-max()
+			205	Minimum value	tBodyAccMag-min()
+			206	Signal magnitude area	tBodyAccMag-sma()
+			207	Energy measure	tBodyAccMag-energy()
+			208	Inter-quartile range	tBodyAccMag-iqr()
+			209	Signal entropy 	tBodyAccMag-entropy()
+			210	Autoregression coefficients with Burg order 	tBodyAccMag-arCoeff()1
+			211	equal to 4	tBodyAccMag-arCoeff()2
+			212		tBodyAccMag-arCoeff()3
+			213		tBodyAccMag-arCoeff()4
+					
+Time	Accelerometer 	Gravity	214	Mean value	tGravityAccMag-mean()
+			215	Standard deviation	tGravityAccMag-std()
+			216	Median absolute deviation	tGravityAccMag-mad()
+			217	Maximum value	tGravityAccMag-max()
+			218	Minimum value	tGravityAccMag-min()
+			219	Signal magnitude area	tGravityAccMag-sma()
+			220	Energy measure	tGravityAccMag-energy()
+			221	Inter-quartile range	tGravityAccMag-iqr()
+			222	Signal entropy 	tGravityAccMag-entropy()
+			223	Autoregression coefficients with Burg order 	tGravityAccMag-arCoeff()1
+			224	equal to 4	tGravityAccMag-arCoeff()2
+			225		tGravityAccMag-arCoeff()3
+			226		tGravityAccMag-arCoeff()4
+Time	Accelerometer 	Body	227	Mean value	tBodyAccJerkMag-mean()
+			228	Standard deviation	tBodyAccJerkMag-std()
+			229	Median absolute deviation	tBodyAccJerkMag-mad()
+			230	Maximum value	tBodyAccJerkMag-max()
+			231	Minimum value	tBodyAccJerkMag-min()
+			232	Signal magnitude area	tBodyAccJerkMag-sma()
+			233	Energy measure	tBodyAccJerkMag-energy()
+			234	Inter-quartile range	tBodyAccJerkMag-iqr()
+			235	Signal entropy 	tBodyAccJerkMag-entropy()
+			236	Autoregression coefficients with Burg order 	tBodyAccJerkMag-arCoeff()1
+			237	equal to 4	tBodyAccJerkMag-arCoeff()2
+			238		tBodyAccJerkMag-arCoeff()3
+			239		tBodyAccJerkMag-arCoeff()4
+Time	Gyroscope	Body	240	Mean value	tBodyGyroMag-mean()
+			241	Standard deviation	tBodyGyroMag-std()
+			242	Median absolute deviation	tBodyGyroMag-mad()
+			243	Maximum value	tBodyGyroMag-max()
+			244	Minimum value	tBodyGyroMag-min()
+			245	Signal magnitude area	tBodyGyroMag-sma()
+			246	Energy measure	tBodyGyroMag-energy()
+			247	Inter-quartile range	tBodyGyroMag-iqr()
+			248	Signal entropy 	tBodyGyroMag-entropy()
+			249	Autoregression coefficients with Burg order 	tBodyGyroMag-arCoeff()1
+			250	equal to 4	tBodyGyroMag-arCoeff()2
+			251		tBodyGyroMag-arCoeff()3
+			252		tBodyGyroMag-arCoeff()4
+Time	Gyroscope	Body	253	Mean value	tBodyGyroJerkMag-mean()
+			254	Standard deviation	tBodyGyroJerkMag-std()
+			255	Median absolute deviation	tBodyGyroJerkMag-mad()
+			256	Maximum value	tBodyGyroJerkMag-max()
+			257	Minimum value	tBodyGyroJerkMag-min()
+			258	Signal magnitude area	tBodyGyroJerkMag-sma()
+			259	Energy measure	tBodyGyroJerkMag-energy()
+			260	Inter-quartile range	tBodyGyroJerkMag-iqr()
+			261	Signal entropy 	tBodyGyroJerkMag-entropy()
+			262	Autoregression coeffcients	tBodyGyroJerkMag-arCoeff()1
+			263	with Burg order equal to 4	tBodyGyroJerkMag-arCoeff()2
+			264		tBodyGyroJerkMag-arCoeff()3
+			265		tBodyGyroJerkMag-arCoeff()4
+Frequency	Accelerometer 	Body	266	Mean value	fBodyAcc-mean()-X
+			267		fBodyAcc-mean()-Y
+			268		fBodyAcc-mean()-Z
+			269	Standard deviation	fBodyAcc-std()-X
+			270		fBodyAcc-std()-Y
+			271		fBodyAcc-std()-Z
+			272	Median absolute deviation	fBodyAcc-mad()-X
+			273		fBodyAcc-mad()-Y
+			274		fBodyAcc-mad()-Z
+			275	Maximum value	fBodyAcc-max()-X
+			276		fBodyAcc-max()-Y
+			277		fBodyAcc-max()-Z
+			278	Minimum value	fBodyAcc-min()-X
+			279		fBodyAcc-min()-Y
+			280		fBodyAcc-min()-Z
+			281	Signal magnitude area	fBodyAcc-sma()
+			282	Energy measure	fBodyAcc-energy()-X
+			283		fBodyAcc-energy()-Y
+			284		fBodyAcc-energy()-Z
+			285	Inter-quartile range	fBodyAcc-iqr()-X
+			286		fBodyAcc-iqr()-Y
+			287		fBodyAcc-iqr()-Z
+			288	Signal entropy 	fBodyAcc-entropy()-X
+			289		fBodyAcc-entropy()-Y
+			290		fBodyAcc-entropy()-Z
+			291	Index of the frequency component with the	fBodyAcc-maxInds-X
+			292	largest magnitide	fBodyAcc-maxInds-Y
+			293		fBodyAcc-maxInds-Z
+			294	Weighted average of the frequency components	fBodyAcc-meanFreq()-X
+			295		fBodyAcc-meanFreq()-Y
+			296		fBodyAcc-meanFreq()-Z
+			297	Skewness of the frequency domain signal	fBodyAcc-skewness()-X
+			298	Kurtosis of the frequency domain signal	fBodyAcc-kurtosis()-X
+			299		fBodyAcc-skewness()-Y
+			300		fBodyAcc-kurtosis()-Y
+			301		fBodyAcc-skewness()-Z
+			302		fBodyAcc-kurtosis()-Z
+Frequency	Accelerometer 	Body	303	Energy of a frquency interval within the 64 bins of	fBodyAcc-bandsEnergy()-1,8
+			304	the FFT of each window	fBodyAcc-bandsEnergy()-9,16
+			305		fBodyAcc-bandsEnergy()-17,24
+			306		fBodyAcc-bandsEnergy()-25,32
+			307		fBodyAcc-bandsEnergy()-33,40
+			308		fBodyAcc-bandsEnergy()-41,48
+			309		fBodyAcc-bandsEnergy()-49,56
+			310		fBodyAcc-bandsEnergy()-57,64
+			311		fBodyAcc-bandsEnergy()-1,16
+			312		fBodyAcc-bandsEnergy()-17,32
+			313		fBodyAcc-bandsEnergy()-33,48
+			314		fBodyAcc-bandsEnergy()-49,64
+			315		fBodyAcc-bandsEnergy()-1,24
+			316		fBodyAcc-bandsEnergy()-25,48
+			317		fBodyAcc-bandsEnergy()-1,8
+			318		fBodyAcc-bandsEnergy()-9,16
+			319		fBodyAcc-bandsEnergy()-17,24
+			320		fBodyAcc-bandsEnergy()-25,32
+			321		fBodyAcc-bandsEnergy()-33,40
+			322		fBodyAcc-bandsEnergy()-41,48
+			323		fBodyAcc-bandsEnergy()-49,56
+			324		fBodyAcc-bandsEnergy()-57,64
+			325		fBodyAcc-bandsEnergy()-1,16
+			326		fBodyAcc-bandsEnergy()-17,32
+			327		fBodyAcc-bandsEnergy()-33,48
+			328		fBodyAcc-bandsEnergy()-49,64
+			329		fBodyAcc-bandsEnergy()-1,24
+			330		fBodyAcc-bandsEnergy()-25,48
+			331		fBodyAcc-bandsEnergy()-1,8
+			332		fBodyAcc-bandsEnergy()-9,16
+			333		fBodyAcc-bandsEnergy()-17,24
+			334		fBodyAcc-bandsEnergy()-25,32
+			335		fBodyAcc-bandsEnergy()-33,40
+			336		fBodyAcc-bandsEnergy()-41,48
+			337		fBodyAcc-bandsEnergy()-49,56
+			338		fBodyAcc-bandsEnergy()-57,64
+			339		fBodyAcc-bandsEnergy()-1,16
+			340		fBodyAcc-bandsEnergy()-17,32
+			341		fBodyAcc-bandsEnergy()-33,48
+			342		fBodyAcc-bandsEnergy()-49,64
+			343		fBodyAcc-bandsEnergy()-1,24
+			344		fBodyAcc-bandsEnergy()-25,48
+Frequency	Accelerometer 	Body	345	Mean value	fBodyAccJerk-mean()-X
+			346		fBodyAccJerk-mean()-Y
+			347		fBodyAccJerk-mean()-Z
+			348	Standard deviation	fBodyAccJerk-std()-X
+			349		fBodyAccJerk-std()-Y
+			350		fBodyAccJerk-std()-Z
+			351	Median absolute deviation	fBodyAccJerk-mad()-X
+			352		fBodyAccJerk-mad()-Y
+			353		fBodyAccJerk-mad()-Z
+			354	Maximum value	fBodyAccJerk-max()-X
+			355		fBodyAccJerk-max()-Y
+			356		fBodyAccJerk-max()-Z
+			357	Minimum value	fBodyAccJerk-min()-X
+			358		fBodyAccJerk-min()-Y
+			359		fBodyAccJerk-min()-Z
+			360	Signal magnitude area	fBodyAccJerk-sma()
+			361	Energy measure	fBodyAccJerk-energy()-X
+			362		fBodyAccJerk-energy()-Y
+			363		fBodyAccJerk-energy()-Z
+			364	Inter-quartile range	fBodyAccJerk-iqr()-X
+			365		fBodyAccJerk-iqr()-Y
+			366		fBodyAccJerk-iqr()-Z
+			367	Signal entropy 	fBodyAccJerk-entropy()-X
+			368		fBodyAccJerk-entropy()-Y
+			369		fBodyAccJerk-entropy()-Z
+			370	Index of the frequency component with the	fBodyAccJerk-maxInds-X
+			371	largest magnitide	fBodyAccJerk-maxInds-Y
+			372		fBodyAccJerk-maxInds-Z
+			373	Weighted average of the frequency components	fBodyAccJerk-meanFreq()-X
+			374		fBodyAccJerk-meanFreq()-Y
+			375		fBodyAccJerk-meanFreq()-Z
+			376	Skewness of the frequency domain signal	fBodyAccJerk-skewness()-X
+			377	Kurtosis of the frequency domain signal	fBodyAccJerk-kurtosis()-X
+			378		fBodyAccJerk-skewness()-Y
+			379		fBodyAccJerk-kurtosis()-Y
+			380		fBodyAccJerk-skewness()-Z
+			381		fBodyAccJerk-kurtosis()-Z
+			382	Energy of a frquency interval within the 64 bins of	fBodyAccJerk-bandsEnergy()-1,8
+			383	the FFT of each window	fBodyAccJerk-bandsEnergy()-9,16
+			384		fBodyAccJerk-bandsEnergy()-17,24
+			385		fBodyAccJerk-bandsEnergy()-25,32
+			386		fBodyAccJerk-bandsEnergy()-33,40
+			387		fBodyAccJerk-bandsEnergy()-41,48
+			388		fBodyAccJerk-bandsEnergy()-49,56
+			389		fBodyAccJerk-bandsEnergy()-57,64
+			390		fBodyAccJerk-bandsEnergy()-1,16
+			391		fBodyAccJerk-bandsEnergy()-17,32
+Frequency	Accelerometer 	Body	392		fBodyAccJerk-bandsEnergy()-33,48
+			393		fBodyAccJerk-bandsEnergy()-49,64
+			394		fBodyAccJerk-bandsEnergy()-1,24
+			395		fBodyAccJerk-bandsEnergy()-25,48
+			396		fBodyAccJerk-bandsEnergy()-1,8
+			397		fBodyAccJerk-bandsEnergy()-9,16
+			398		fBodyAccJerk-bandsEnergy()-17,24
+			399		fBodyAccJerk-bandsEnergy()-25,32
+			400		fBodyAccJerk-bandsEnergy()-33,40
+			401		fBodyAccJerk-bandsEnergy()-41,48
+			402		fBodyAccJerk-bandsEnergy()-49,56
+			403		fBodyAccJerk-bandsEnergy()-57,64
+			404		fBodyAccJerk-bandsEnergy()-1,16
+			405		fBodyAccJerk-bandsEnergy()-17,32
+			406		fBodyAccJerk-bandsEnergy()-33,48
+			407		fBodyAccJerk-bandsEnergy()-49,64
+			408		fBodyAccJerk-bandsEnergy()-1,24
+			409		fBodyAccJerk-bandsEnergy()-25,48
+			410		fBodyAccJerk-bandsEnergy()-1,8
+			411		fBodyAccJerk-bandsEnergy()-9,16
+			412		fBodyAccJerk-bandsEnergy()-17,24
+			413		fBodyAccJerk-bandsEnergy()-25,32
+			414		fBodyAccJerk-bandsEnergy()-33,40
+			415		fBodyAccJerk-bandsEnergy()-41,48
+			416		fBodyAccJerk-bandsEnergy()-49,56
+			417		fBodyAccJerk-bandsEnergy()-57,64
+			418		fBodyAccJerk-bandsEnergy()-1,16
+			419		fBodyAccJerk-bandsEnergy()-17,32
+			420		fBodyAccJerk-bandsEnergy()-33,48
+			421		fBodyAccJerk-bandsEnergy()-49,64
+			422		fBodyAccJerk-bandsEnergy()-1,24
+			423		fBodyAccJerk-bandsEnergy()-25,48
+Frequency	Gyroscope	Body	424	Mean value	fBodyGyro-mean()-X
+			425		fBodyGyro-mean()-Y
+			426		fBodyGyro-mean()-Z
+			427	Standard deviation	fBodyGyro-std()-X
+			428		fBodyGyro-std()-Y
+			429		fBodyGyro-std()-Z
+			430	Median absolute deviation	fBodyGyro-mad()-X
+			431		fBodyGyro-mad()-Y
+			432		fBodyGyro-mad()-Z
+			433	Maximum value	fBodyGyro-max()-X
+			434		fBodyGyro-max()-Y
+			435		fBodyGyro-max()-Z
+			436	Minimum value	fBodyGyro-min()-X
+			437		fBodyGyro-min()-Y
+			438		fBodyGyro-min()-Z
+			439	Signal magnitude area	fBodyGyro-sma()
+			440	Energy measure	fBodyGyro-energy()-X
+			441		fBodyGyro-energy()-Y
+			442		fBodyGyro-energy()-Z
+			443	Inter-quartile range	fBodyGyro-iqr()-X
+			444		fBodyGyro-iqr()-Y
+			445		fBodyGyro-iqr()-Z
+			446	Signal entropy 	fBodyGyro-entropy()-X
+			447		fBodyGyro-entropy()-Y
+			448		fBodyGyro-entropy()-Z
+			449	Index of the frequency component with the	fBodyGyro-maxInds-X
+			450	largest magnitide	fBodyGyro-maxInds-Y
+			451		fBodyGyro-maxInds-Z
+			452	Weighted average of the frequency components	fBodyGyro-meanFreq()-X
+			453		fBodyGyro-meanFreq()-Y
+			454		fBodyGyro-meanFreq()-Z
+			455	Skewness of the frequency domain signal	fBodyGyro-skewness()-X
+			456	Kurtosis of the frequency domain signal	fBodyGyro-kurtosis()-X
+			457		fBodyGyro-skewness()-Y
+			458		fBodyGyro-kurtosis()-Y
+			459		fBodyGyro-skewness()-Z
+			460		fBodyGyro-kurtosis()-Z
+			461	Energy of a frquency interval within the 64 bins of	fBodyGyro-bandsEnergy()-1,8
+			462	the FFT of each window	fBodyGyro-bandsEnergy()-9,16
+			463		fBodyGyro-bandsEnergy()-17,24
+			464		fBodyGyro-bandsEnergy()-25,32
+			465		fBodyGyro-bandsEnergy()-33,40
+			466		fBodyGyro-bandsEnergy()-41,48
+			467		fBodyGyro-bandsEnergy()-49,56
+			468		fBodyGyro-bandsEnergy()-57,64
+			469		fBodyGyro-bandsEnergy()-1,16
+			470		fBodyGyro-bandsEnergy()-17,32
+Frequency	Gyroscope	Body	471		fBodyGyro-bandsEnergy()-33,48
+			472		fBodyGyro-bandsEnergy()-49,64
+			473		fBodyGyro-bandsEnergy()-1,24
+			474		fBodyGyro-bandsEnergy()-25,48
+			475		fBodyGyro-bandsEnergy()-1,8
+			476		fBodyGyro-bandsEnergy()-9,16
+			477		fBodyGyro-bandsEnergy()-17,24
+			478		fBodyGyro-bandsEnergy()-25,32
+			479		fBodyGyro-bandsEnergy()-33,40
+			480		fBodyGyro-bandsEnergy()-41,48
+			481		fBodyGyro-bandsEnergy()-49,56
+			482		fBodyGyro-bandsEnergy()-57,64
+			483		fBodyGyro-bandsEnergy()-1,16
+			484		fBodyGyro-bandsEnergy()-17,32
+			485		fBodyGyro-bandsEnergy()-33,48
+			486		fBodyGyro-bandsEnergy()-49,64
+			487		fBodyGyro-bandsEnergy()-1,24
+			488		fBodyGyro-bandsEnergy()-25,48
+			489		fBodyGyro-bandsEnergy()-1,8
+			490		fBodyGyro-bandsEnergy()-9,16
+			491		fBodyGyro-bandsEnergy()-17,24
+			492		fBodyGyro-bandsEnergy()-25,32
+			493		fBodyGyro-bandsEnergy()-33,40
+			494		fBodyGyro-bandsEnergy()-41,48
+			495		fBodyGyro-bandsEnergy()-49,56
+			496		fBodyGyro-bandsEnergy()-57,64
+			497		fBodyGyro-bandsEnergy()-1,16
+			498		fBodyGyro-bandsEnergy()-17,32
+			499		fBodyGyro-bandsEnergy()-33,48
+			500		fBodyGyro-bandsEnergy()-49,64
+			501		fBodyGyro-bandsEnergy()-1,24
+			502		fBodyGyro-bandsEnergy()-25,48
+			503	Mean value	fBodyAccMag-mean()
+			504	Standard deviation	fBodyAccMag-std()
+			505	Median absolute deviation	fBodyAccMag-mad()
+			506	Maximum value	fBodyAccMag-max()
+			507	Minimum value	fBodyAccMag-min()
+			508	Signal magnitude area	fBodyAccMag-sma()
+			509	Energy measure	fBodyAccMag-energy()
+			510	Inter-quartile range	fBodyAccMag-iqr()
+			511	Signal entropy 	fBodyAccMag-entropy()
+			512	Index of the frequency component with the	fBodyAccMag-maxInds
+			513	Weighted average of the frequency components	fBodyAccMag-meanFreq()
+			514	Skewness of the frequency domain signal	fBodyAccMag-skewness()
+			515	Kurtosis of the frequency domain signal	fBodyAccMag-kurtosis()
+			516		fBodyBodyAccJerkMag-mean()
+			517		fBodyBodyAccJerkMag-std()
+			518		fBodyBodyAccJerkMag-mad()
+			519		fBodyBodyAccJerkMag-max()
+			520		fBodyBodyAccJerkMag-min()
+			521		fBodyBodyAccJerkMag-sma()
+			522		fBodyBodyAccJerkMag-energy()
+			523		fBodyBodyAccJerkMag-iqr()
+			524		fBodyBodyAccJerkMag-entropy()
+			525		fBodyBodyAccJerkMag-maxInds
+			526		fBodyBodyAccJerkMag-meanFreq()
+			527		fBodyBodyAccJerkMag-skewness()
+			528		fBodyBodyAccJerkMag-kurtosis()
+			529		fBodyBodyGyroMag-mean()
+			530		fBodyBodyGyroMag-std()
+			531		fBodyBodyGyroMag-mad()
+			532		fBodyBodyGyroMag-max()
+			533		fBodyBodyGyroMag-min()
+			534		fBodyBodyGyroMag-sma()
+			535		fBodyBodyGyroMag-energy()
+			536		fBodyBodyGyroMag-iqr()
+			537		fBodyBodyGyroMag-entropy()
+			538		fBodyBodyGyroMag-maxInds
+			539		fBodyBodyGyroMag-meanFreq()
+			540		fBodyBodyGyroMag-skewness()
+			541		fBodyBodyGyroMag-kurtosis()
+			542		fBodyBodyGyroJerkMag-mean()
+			543		fBodyBodyGyroJerkMag-std()
+			544		fBodyBodyGyroJerkMag-mad()
+			545		fBodyBodyGyroJerkMag-max()
+			546		fBodyBodyGyroJerkMag-min()
+			547		fBodyBodyGyroJerkMag-sma()
+			548		fBodyBodyGyroJerkMag-energy()
+			549		fBodyBodyGyroJerkMag-iqr()
+			550		fBodyBodyGyroJerkMag-entropy()
+			551		fBodyBodyGyroJerkMag-maxInds
+			552		fBodyBodyGyroJerkMag-meanFreq()
+			553		fBodyBodyGyroJerkMag-skewness()
+			554		fBodyBodyGyroJerkMag-kurtosis()
+			555		angle(tBodyAccMean,gravity)
+			556		angle(tBodyAccJerkMean),gravityMean)
+			557		angle(tBodyGyroMean,gravityMean)
+			558		angle(tBodyGyroJerkMean,gravityMean)
+			559		angle(X,gravityMean)
+			560		angle(Y,gravityMean)
+			561		angle(Z,gravityMean)
