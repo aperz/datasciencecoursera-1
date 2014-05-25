@@ -6,15 +6,15 @@ Step 3. Concatenate the training and test subjects by combining rows to create t
 
 Step 4. Assign variable names to columns of Data using the features vector. 
 
-NOTE: The Data set has 39 columns named “BodyBody” that duplicate columns with “Body” prefixes.
+NOTE: Data has 39 columns with “BodyBody” names that duplicate columns with “Body."
 
-Step 5. Subset the first tidyData set by combining 522 columns without “BodyBody” in their names.	
+Step 5. Subset the Data set by combining 522 = 561 - 39 columns without “BodyBody” in their names.	
 
-Step 6.  Index columns of tidyData to extract means and standard deviations for each measurement.
+Step 6. Index 60 columns of tidy Data to extract mean and standard deviation (std) for each of 30 measurements.
 
-Step 7. Subset tidyMean set by excluding 10 columns with mean frequency (meanFreq) in their names. 
+NOTE: Subset has 30 mean (and 30 std) columns excluding 10 columns with mean frequency (meanFreq) names. 
 
 Step 8. Assign value labels to activities using the activity_labels vector.
 
-Step 11. Merge average measurements by combining columns to create the second tidyData2 set.
+Step 11. Calculate average measurements by melting and casting columns to create the tidyData set.
 
