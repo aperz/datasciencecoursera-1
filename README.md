@@ -20,9 +20,9 @@ Step 4. Assign variable names to columns of Data using the features vector.
 NOTE: The Data set has 39 columns named “BodyBody” that duplicate columns with “Body” prefixes.
 
 Step 5. Subset the first tidyData set by combining 522 columns without “BodyBody” in their names.	
-	> grep("BodyBody", features[, 2])			#  39 columns
+	> grep("BodyBody()", features[, 2])			#  39 columns
  	[1] 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 	537 538 539 540 541 542 543 544 545 546 547 [33] 548 549 550 551 552 553 554
-	> tidyData <- Data[c(, 1:515,555:561)] 			# 10,299 rows and 522 columns
+	> tidyData <- Data[c(1:515,555:561)] 			# 10,299 rows and 522 columns
 
 Step 6.  Index columns of tidyData to extract means and standard deviations for each measurement.
 	Mean <- tidyData[, grep("mean()", features[, 2])] 	# 10,299 rows and 40 columns
